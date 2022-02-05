@@ -11,4 +11,9 @@ public class Book {
 	public String getName() {
 		return name;
 	}
+
+	@Override
+	public String toString() {
+		return "Book [name=" + name + "]";
+	}
 }
